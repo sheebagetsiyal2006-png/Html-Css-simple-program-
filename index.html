@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+   
+        }
+        .First{
+            background-color: lightslategrey;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            font-size: x-large;
+            gap: 20px;
+            padding: 10px;
+            color: white;
+            text-align: center;
+
+        }
+        .second{
+            background-color: lightslategrey;
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+        }
+        .second h1{
+            margin: 0;
+        }
+        .Third{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 50px;
+            padding: 50px;
+            text-align: center;
+            
+            
+        }
+        .box{
+            border: 3px solid lightslategrey;
+            
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+
+        }
+        .box img{
+            width: 90%;
+            height: 70%;
+             border: 3px solid lightslategrey;
+            border-radius: 10px;
+            
+        }
+        .box button{
+            width: 70%;
+           
+            background-color: red;
+            font-size: larger;
+            border-radius: 20px;
+        }
+        .Fourth{
+            background-color:rgb(149, 166, 218) ;
+              text-align: center; 
+              color: aliceblue;  
+           
+        }
+        .Fourth h2{
+            margin: 0;
+        }
+        @media (min-width: 500px) and (max-width: 800px){
+            .First{
+                grid-template-columns: 1fr 1fr 1fr;
+
+            }
+            .second{
+                font-size: 24px;
+                text-align: center;
+                width: 100%;
+            }
+            .Third{
+                grid-template-columns: 1fr;
+                width: 100%;
+                
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .Fourth{
+                width: 100%;
+
+            }
+        }
+        
+
+
+        
+        
+    </style>
+    </head>
+    <body>
+         <div id="root"></div>
+        <div class="First">
+            <div>content</div>
+            <div>content</div>
+            <div>content</div>
+            <div>content</div>
+            <div>content</div>
+        </div>
+        <div class="second">
+            <h1>R O L E X</h1>
+        </div>
+        <div class="Third">
+            <div class="box">
+                <h2>Watch</h2>
+                <img src="https://tse1.mm.bing.net/th/id/OIP.awmAaQnTY3RBLMK1E-8RSwHaEK?pid=Api&P=0&h=180"alt="Images">
+
+                <br>
+                
+                <button>Book now</button>
+                <br>
+
+            </div>
+            <div class="box">
+                <h2>Watch</h2>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.IkJkIUcOHlJ-KxbJlwV0kgHaEK?pid=Api&P=0&h=180" alt="Images">
+                <br>
+                <button>Book now</button>
+                <br>
+
+            </div>
+            <div class="box">
+                <h2>Watch</h2>
+                <img src="https://wallpapercave.com/wp/wp2149344.jpg" alt="Images">
+                <br>
+                <button>Book now</button>
+                <br>
+                
+
+            </div>
+            <div class="box">
+                <h2>Watch</h2>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.WyaVyGWobkjK3gSHb3CIlQHaEK?pid=Api&P=0&h=180" alt="Images">
+                <br>
+                <button>Book now</button>
+                <br>
+
+            </div>
+            <div class="box">
+                <h2>Watch</h2>
+                <img src="https://tse1.mm.bing.net/th/id/OIP.r6vRaYnCYI5o6hj4N-JqYQHaEa?pid=Api&P=0&h=180" alt="Images">
+                <br>
+                <button>Book now</button>
+                <br>
+
+            </div>
+           
+        </div>
+        <div class="Fourth">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic temporibus quis rerum non saepe perferendis suscipit aspernatur blanditiis reprehenderit accusamus ratione delectus, laudantium deserunt! Voluptate repudiandae dolore adipisci odit voluptatibus.</p>
+            <h2>Rolex.in</h2>
+        </div>
+        
+</body>
+</html>
